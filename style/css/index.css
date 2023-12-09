@@ -1,0 +1,193 @@
+:root {
+    --green-color: #16df7e;
+    --grey-color: #6d7489;
+    --blue-color: #007aff;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--grey-color);
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green-color);
+}
+
+.navbar .navbar-toggler {
+    color: var(--grey-color);
+    font-size: 25px;
+    border: none;
+}
+
+.navbar .navbar-collapse .btn {
+    color: var(--grey-color)
+}
+
+.navbar .navbar-collapse .btn:hover {
+    color: white;
+}
+
+.landing-info h1 {
+    color: #3e4450;
+}
+
+.landing-btns .start-btn {
+    background-color: var(--green-color);
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+.landing-btns .start-btn:hover {
+    background-color: var(--blue-color);
+}
+
+.landing-btns {
+    gap: 2rem;
+}
+
+.video__icon {
+    color: var(--grey-color);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.video__btn__icn:hover {
+    .video__icon {
+        color: var(--green-color);
+    }
+}
+
+.landing-photo img {
+    width: 600px;
+    height: 500px;
+    animation: 2s 2s change infinite alternate
+}
+
+@keyframes change {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(0px);
+
+    }
+}
+
+.three__icons {
+    color: var(--green-color);
+}
+
+.window__info {
+    cursor: pointer;
+}
+
+.window__title {
+    color: var(--grey-color);
+    transition: .5s;
+}
+
+.window__info:hover {
+    .window__title {
+        color: var(--green-color);
+    }
+}
+
+.about_photo img {
+    width: 600px;
+    height: 500px;
+}
+
+.about_info i {
+    color: var(--green-color);
+    padding-right: 5px;
+}
+
+.numbers {
+    text-align: center;
+}
+
+.numbers h1 {
+    color: var(--green-color);
+}
+
+.serv__title {
+    text-align: center;
+}
+
+.serv__title h1 {
+    color: var(--grey-color);
+}
+
+.services__icons {
+    color: var(--green-color);
+}
+
+.window__services {
+    text-align: center;
+    cursor: pointer;
+}
+
+.window_service_title {
+    color: var(--grey-color);
+    transition: .5s;
+}
+
+.window__services:hover {
+    .window_service_title {
+        color: var(--green-color);
+    }
+}
+
+.green__btn {
+    color: white;
+    transition: .5s;
+}
+
+.green__sec {
+    text-align: center;
+    background-color: var(--green-color);
+}
+
+.green__btn:hover {
+    color: white;
+    background-color: var(--blue-color);
+    border: none;
+}
+
+.team__screen {
+    text-align: center;
+}
+
+.team__icons {
+    gap: 5px;
+}
+
+.icon {
+    color: var(--grey-color);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.icon:hover {
+    color: var(--green-color);
+}
+
+.footer {
+    color: var(--grey-color);
+}
+
+.footer a {
+    color: var(--green-color);
+}
